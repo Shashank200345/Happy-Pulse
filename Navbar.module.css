@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.div {
+    background-color: rgb(88, 88, 222);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+nav li ul{
+    padding: 0 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+.navpart2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    padding: 5px;
+    gap: 10px;
+    margin-left: 80vw; 
+}
+
+button {
+    --primary-color: #645bff;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    box-sizing: border-box;
+    border: 0px ;
+    border-radius: 10px;
+    color: black;
+    padding: 1em 1.8em;
+    background-color: rgb(88, 88, 222);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+
+  }
+  
+  button .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  button .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  button:hover {
+    background-color:  rgb(100, 100, 223);
+    color: white;
+  }
+  
