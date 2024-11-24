@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav>
       <li className={styles.div}>
         <ul>Disease Prevention</ul>
-        <ul>Symtom detection</ul>
+        <ul>Symptum detection</ul>
         <ul>Consult Doctors</ul>
         <ul>Personalized Treatment</ul>
         <div className={styles.navpart2}>
